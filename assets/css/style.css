@@ -1,10 +1,11 @@
 body {
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     display: flex;
+
 }
 
 
@@ -23,13 +24,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 
 }
 
 .cajaInterna {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,15 +45,20 @@ body {
 
 }
 
-.cajaInterna h1 {
+.tituloChat {
     text-align: center;
-    margin: 10px;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 500;
 
 }
 
-.cajaInterna p {
+.instrucciones {
     text-align: center;
     margin: 0;
+    font-size: 13px;
+
 
 }
 
@@ -69,7 +76,7 @@ span {
 
 .imgPerfil {
     border-radius: 50%;
-    height: 40px;
+    height: 35px;
 
 }
 
@@ -92,17 +99,19 @@ span {
 .nombre {
     margin: 0;
     font-weight: bold;
+    font-size: 12px;
     
 }
 
 .estado {
     margin: 0;
-    font-size: 12px;
+    font-size: 10px;
+    color: gray;
 
 }
 
 .iconos {
-    width: 50px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,12 +120,13 @@ span {
 }
 
 .iconos i {
-    font-size: 20px;
+    font-size: 15px;
     color: #828485;
 }
 
 .cajaBoton {
-    height: 120px;
+    height: 100px;
+
     border-bottom: 1px solid #BEC1BB;
     display: flex;
     justify-content: center;
@@ -125,7 +135,8 @@ span {
 
 .boton {
     border: none;
-    font-size: 20px;
+    width: 150px;
+    font-size: 12px;
     padding: 10px 20px;
     background-color: #A491D2;
     color: white;
@@ -135,7 +146,7 @@ span {
 
 .cajaChat {
     border-bottom: 1px solid #BEC1BB;
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -145,7 +156,8 @@ span {
 
 .imgChat {
     border-radius: 50%;
-    height: 40px;
+    height: 45px;
+    width:  45px;
     margin-left: 25px;
 
 }
@@ -161,14 +173,17 @@ span {
 
 .nombreContacto {
     margin: 0;
+    font-size: 14px;
    
     
 }
 
 .estadoContacto {
     margin: 0;
-    margin-top: 2px;
-    font-size: 12px;
+
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 
 
 }
